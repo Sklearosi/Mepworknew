@@ -8,7 +8,7 @@ interface MenuProps {
 function Menu({ open, setOpen }: MenuProps) {
   return (
     <div
-      className={` transition-all duration-700 bg-red-500 w-full absolute top-0 h-full ${
+      className={` transition-all duration-700 bg-white w-full absolute top-0 h-full ${
         !open ? " -right-full " : " right-0"
       } `}
     >
@@ -39,7 +39,7 @@ function Menu({ open, setOpen }: MenuProps) {
         >
           <div className=" w-5 h-[2px] bg-black "></div>
           <Link className=" text-xl " to="/">
-            მთავარი
+            პროექტები
           </Link>
           <div className=" w-5 h-[2px] bg-black "></div>
         </li>
@@ -50,7 +50,7 @@ function Menu({ open, setOpen }: MenuProps) {
         >
           <div className=" w-5 h-[2px] bg-black "></div>
           <Link className=" text-xl " to="/">
-            მთავარი
+            კომპანია
           </Link>
           <div className=" w-5 h-[2px] bg-black "></div>
         </li>
@@ -61,7 +61,7 @@ function Menu({ open, setOpen }: MenuProps) {
         >
           <div className=" w-5 h-[2px] bg-black "></div>
           <Link className=" text-xl " to="/">
-            მთავარი
+            კონტაქტი
           </Link>
           <div className=" w-5 h-[2px] bg-black "></div>
         </li>
